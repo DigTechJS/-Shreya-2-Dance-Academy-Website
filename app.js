@@ -4,7 +4,7 @@ const fs = require("fs");
 const app = express();
 const mongoose = require('mongoose');
 const bodyparser= require('body-parser');
-const port = 2000;
+const port =process.env.PORT|| 2000;
 
 main().catch(err => console.log(err));
 
