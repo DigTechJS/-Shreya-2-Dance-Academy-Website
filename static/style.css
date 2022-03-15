@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+#navBar{
+    background-color: black;
+    padding: 3px 4px;
+    position: sticky;
+    top: 0px;
+}
+#navBar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color: rgb(223 108 108 / 99%);
+    padding-top: 5px;
+    align-items: center;
+    /* padding-bottom: 5px; */
+
+
+}
+#navBar li{
+    list-style: none;
+margin: 4px 29px;
+}
+#navBar li a{
+    text-decoration:none;
+    padding: 3px 11px;
+    color: white;
+    font-weight: bold;
+}
+#navBar li a:hover{
+    color: yellow;
+    font-size: 20px;
+    }
+
+#logo img{
+        height: 61px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+#introSection{
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*for bringing center*/
+    align-items: center;
+    background:  url('/static/bg789.jpg')  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+height:300px;
+background-color: red;
+    font-size: 30px;
+    padding-bottom: 32px;
+    
+
+}
+
+#introSection div.small{
+    font-size: 20px;
+}
+#introSection div.small:hover{
+    font-size: 25px;
+}
+/* #introSection div.big{
+    position: relative;
+    animation: Shreya 500ms ease 0s 2 normal both;
+}
+@keyframes Shreya {
+    0%{
+        font-size: 40px;
+        
+    }
+    25%{
+        font-size: 50px;
+    }
+    50%{
+        font-size:60px;
+    }
+    75%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: 40px;
+    }
+} */
+#introSection div.big:hover{
+    font-size: 40px;
+}
+#ourMission{
+    height: 400px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+#ourMission h2{
+    align-items: center;
+    text-align: center;
+    padding-top: 18px;
+}
+#ourMission h2:hover{
+    font-size: 30px;
+}
+#sponsorSection h2:hover{
+    font-size: 30px;
+}
+#ourMission .card{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px 15px;
+    height: 300px;
+    background-color:hsl(0deg 44% 79% / 72%);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card-box{
+    display: flex;
+justify-content: center;
+margin-top: 20px;}
+
+.card h3{
+    text-align: center;
+    margin-top: 8px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+.card-img{
+    justify-content: center;
+}
+.card-img img{
+    height: 200px;
+    width: 200px;
+}
+#sponsorSection{
+    height:300px;
+   background-color: #e4a4a4;
+  
+ /* background-color: black; */
+
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 18px;
+    /* color: white; */
+    font-weight: bold;
+
+}
+.image-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.spImage{
+    
+
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 13%;
+        margin: 21px 21px;
+        height: 133px;
+        background-color: white;
+        padding: 15px 18px;
+}
+#footer{
+    height:66px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: black;
+color: white;
+margin-bottom: 0px;
+margin-left: 0px;
+
+}
+#footer:hover{
+    font-size: 20px;
+}

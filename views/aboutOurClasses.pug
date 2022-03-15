@@ -1,0 +1,39 @@
+extends base.pug 
+block scripts 
+  script(src='/static/index.js')
+block style 
+  style
+    include ../static/style.css
+    include ../static/styleClasses.css
+    
+    
+block content 
+  
+  div.classes
+    h1 Our Classes
+    div.classBoxKaBaap
+      div.classBox 
+        |Aerobics Dance Classes
+        div.classBoxImg
+          img(src="/static/class1.png")
+      div.classBox
+        |HipHop Dance Classes 
+        div.classBoxImg
+          img(src="/static/class2.png")
+      div.classBox
+        |Classical Dance Classes 
+        div.classBoxImg
+          img(src="/static/class3.png")
+      div.classBox
+        |Belly Dance Classes 
+        div.classBoxImg
+          img(src="/static/class4.png")
+      div.classBox
+        |Gymnastics Dance Classes 
+        div.classBoxImg
+          img(src="/static/class5.png")
+      div.classBox
+        |Salsa Dance Classes 
+        div.classBoxImg
+          img(src="/static/class6.png")
+  

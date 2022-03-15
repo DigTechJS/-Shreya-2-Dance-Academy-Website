@@ -1,0 +1,41 @@
+extends base.pug 
+block scripts 
+  script(src='/static/index.js')
+block style 
+  style
+    include ../static/style.css
+    
+block content 
+    section#introSection
+      div.big Welcome to (Shreya)^2 Dance Academy
+      div.big where LIFE=DANCE
+      div.small Ignite your Dancing Flame
+    section#ourMission 
+      h2 Our Mission
+      div.card1
+       div.card
+          h3 To instill a great love of dance
+          div.card-box 
+            div.card-img 
+              img(src="/static/p6.png")
+       div.card
+          h3 Provide Expert Teachings
+          div.card-box 
+            div.card-img 
+              img(src="/static/p5.png")
+       div.card
+          h3 To make a place where dancing dreams come true
+          div.card-box 
+            div.card-img 
+              img(src="/static/p4.png")
+    section#sponsorSection 
+      h2 Our Sponsors
+      #Sponsors
+        div.image-box 
+          img(src="/static/cl1.png", alt="sponsor image", class="spImage")
+          img(src="/static/cl2.png", alt="sponsor image", class="spImage")
+          img(src="/static/cl3.png", alt="sponsor image", class="spImage")
+          img(src="/static/cl4.png", alt="sponsor image", class="spImage")
+          img(src="/static/cl5.png", alt="sponsor image", class="spImage")
+    
+
