@@ -9,7 +9,7 @@ const port =process.env.PORT|| 2000;
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb://localhost:27017/dance_website');
+  await mongoose.connect('mongodb+srv://shreyaUser:shreyKapassBaba@cluster0.vgxlz.mongodb.net/dance_website?retryWrites=true&w=majority');
 }
 // define mongoose schema
 const contactSchema = new mongoose.Schema({
